@@ -25,6 +25,7 @@ export default class Header extends Component {
                 <link rel="shortcut icon" href="favicon.ico" />
                 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet" />
+                <link href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel = "stylesheet" />
                 {/* Animate.css */}
                 <link rel="stylesheet" href="css/animate.css" />
                 {/* Icomoon Icon Fonts*/}

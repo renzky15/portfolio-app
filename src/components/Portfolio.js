@@ -10,15 +10,18 @@ import Education from './Education';
 import Experience from './Experience';
 import Work from './Work';
 import Blog from './Blog';
-import Contact from './Contact';
+import TopHeaderSection from './TopHeaderSection/TopHeaderSection';
+
 
 
 export default class Portfolio extends Component {
     render() {
         return (
             <div>
-                
+                <TopHeaderSection/>
                 <div id="colorlib-page">
+                    
+                
                     {/* <div className="container-wrap" > */}
                         <Sidebar/>
 
@@ -32,7 +35,7 @@ export default class Portfolio extends Component {
                             <Experience/>
                             <Work/>
                             <Blog/>
-                            <Contact/>
+                        
                         </div>
 
                     {/* </div>  */}
